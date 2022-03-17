@@ -41,12 +41,8 @@
             accessToken: 'pk.eyJ1IjoiYmFsZHRoZWJ1aWxkZXIiLCJhIjoiY2wwdjEwcmh0MTJvbDNpcDR2aXF4NDdyOCJ9.VYWB1ihniNYrFmofxDt4jA'
         }).addTo(mymap);
 
-        // This Is where I'm trying to pull the .GeoJSON, Either from a local or Git directory (preferbaly Git).
+        // This Is where I pull the .GeoJSON, Either from a local or Git directory (preferbaly Git).
 
-        // Idea 1:
-        //L.GeoJSON(Kawartha_Lakes.geojson).addTo(mymap);
-
-        //Idea 2:
         /* $.getJSON("https://bitbucket.org/whalebiologist/website-map/raw/58abf2f24696fef437c294c02e55019d1c6554e4/churches_short.geojson", function (data) {
             var ratIcon = L.icon({
                 iconUrl: 'http://maptimeboston.github.io/leaflet-intro/rat.png',
