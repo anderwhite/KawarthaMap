@@ -20,6 +20,10 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
+
+    <!--add var geodata={...) to the start of the geojson file to auto load the data into a variable then just link to the file... -->
+    <script src="./MapLayers/Kawartha_Lakes.geojson" type="text/javascript"></script>
+    <script src="./MapLayers/Kawartha_WetlandBuff.geojson" type="text/javascript"></script>
 </head>
 
 <body>
@@ -41,21 +45,8 @@
             accessToken: 'pk.eyJ1IjoiYmFsZHRoZWJ1aWxkZXIiLCJhIjoiY2wwdjEwcmh0MTJvbDNpcDR2aXF4NDdyOCJ9.VYWB1ihniNYrFmofxDt4jA'
         }).addTo(mymap);
 
-        // This Is where I pull the .GeoJSON, Either from a local or Git directory (preferbaly Git).
-
-        /* $.getJSON("https://bitbucket.org/whalebiologist/website-map/raw/58abf2f24696fef437c294c02e55019d1c6554e4/churches_short.geojson", function (data) {
-            var ratIcon = L.icon({
-                iconUrl: 'http://maptimeboston.github.io/leaflet-intro/rat.png',
-                iconSize: [60, 50]
-            });
-            L.GeoJSON(data, {
-                pointToLayer: function (feature, latlng) {
-                    var marker = L.marker(latlng, { icon: ratIcon });
-                    marker.bindPopup(feature.properties.Location + '<br/>' + feature.properties.OPEN_DT);
-                    return marker;
-                }
-            }).addTo(map);
-        });*/
+        L.geoJson(lakes).addTo(mymap);
+        L.geoJson(wetlandbuff).addTo(mymap);
 
     </script>
 </body>
