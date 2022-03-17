@@ -41,7 +41,7 @@
             accessToken: 'pk.eyJ1IjoiYmFsZHRoZWJ1aWxkZXIiLCJhIjoiY2wwdjEwcmh0MTJvbDNpcDR2aXF4NDdyOCJ9.VYWB1ihniNYrFmofxDt4jA'
         }).addTo(mymap);
 
-        // THIS Is where I'm trying to pull the .GeoJSON, Either from a locla or Git directory (preferbaly Git).
+        // This Is where I'm trying to pull the .GeoJSON, Either from a local or Git directory (preferbaly Git).
 
         // Idea 1:
         //L.GeoJSON(Kawartha_Lakes.geojson).addTo(mymap);
@@ -52,7 +52,7 @@
                 iconUrl: 'http://maptimeboston.github.io/leaflet-intro/rat.png',
                 iconSize: [60, 50]
             });
-            L.geoJson(data, {
+            L.GeoJSON(data, {
                 pointToLayer: function (feature, latlng) {
                     var marker = L.marker(latlng, { icon: ratIcon });
                     marker.bindPopup(feature.properties.Location + '<br/>' + feature.properties.OPEN_DT);
