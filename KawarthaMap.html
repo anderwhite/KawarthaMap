@@ -22,8 +22,9 @@
         crossorigin=""></script>
 
     <!--add var geodata={...) to the start of the geojson file to auto load the data into a variable then just link to the file... -->
-    <script src="./MapLayers/Kawartha_Lakes.geojson" type="text/javascript"></script>
-    <script src="./MapLayers/Kawartha_WetlandBuff.geojson" type="text/javascript"></script>
+
+    <script src="./MapLayers/All.geojson" type="text/javascript"></script>
+    <!-- <script src="./MapLayers/Kawartha_WetlandBuff.geojson" type="text/javascript"></script> -->
 </head>
 
 <body>
@@ -45,8 +46,8 @@
             accessToken: 'pk.eyJ1IjoiYmFsZHRoZWJ1aWxkZXIiLCJhIjoiY2wwdjEwcmh0MTJvbDNpcDR2aXF4NDdyOCJ9.VYWB1ihniNYrFmofxDt4jA'
         }).addTo(mymap);
 
-        L.geoJson(lakes).addTo(mymap);
-        L.geoJson(wetlandbuff).addTo(mymap);
+        L.geoJSON(lakes).addTo(mymap);
+        L.geoJSON(wetlandbuff).addTo(mymap);
 
     </script>
 </body>
