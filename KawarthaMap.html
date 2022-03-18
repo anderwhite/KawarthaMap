@@ -23,7 +23,7 @@
 
     <!--add var geodata={...) to the start of the geojson file to auto load the data into a variable then just link to the file... -->
 
-    <script src="./MapLayers/All.geojson" type="text/javascript"></script>
+    <script src="./MapLayers/AllWetlands_Clipped.geojson" type="text/javascript"></script>
     <!-- <script src="./MapLayers/Kawartha_WetlandBuff.geojson" type="text/javascript"></script> -->
 </head>
 
@@ -47,7 +47,7 @@
         }).addTo(mymap);
 
         L.geoJSON(lakes).addTo(mymap);
-        L.geoJSON(wetlandbuff).addTo(mymap);
+        L.geoJSON(wetlands).addTo(mymap);
 
     </script>
 </body>
