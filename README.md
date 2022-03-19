@@ -3,7 +3,7 @@
 These files are part of a assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. The project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data. Wetland Buffers use Kawartha Conservation (https://www.kawarthaconservation.com) regulation policy standards. 
 
 ## Map
-![GG369 Map 1](WetlandMap_Draft.jpg)
+![GG369 Map 1](GG369_WetlandMap.jpg)
 
 ###  Map Walkthough
 
