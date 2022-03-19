@@ -9,7 +9,7 @@ Evaluated Wetlands = 1,128
 Unevaluated Wetlands = 2,763
 
 ## Map
-![GG369 Map 1](GG369_WetlandMap.jpg)
+![GG369 Map 1](./images/GG369_WetlandMap.jpg "WetlandMap")
 
 ## Proccess Walkthrough:
 - Add XYZ Layer (OpenStreetMap)
