@@ -2,7 +2,7 @@
 
 These files are part of assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. This project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data. Kawartha Conservation regulation policies are used as techncila refrence for detemrining buffer sizes (Evaluated Wetland = 120 meter, Unevaluated Wetlands = 30 meter). 
 
-## Map Statistics:
+## Statistics
 Buildings - Inside Wetland Buffers = 2,832 <br/>
 Buildings - Ouside Wetland Buffers = 44,079 <br/>
 Evaluated Wetlands = 1,128 <br/>
