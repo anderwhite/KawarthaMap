@@ -9,7 +9,7 @@ Evaluated Wetlands = 1,128 <br/>
 Unevaluated Wetlands = 2,763 <br/>
 
 ## Static Map
-(Interactive map coming soon... Hopefully.)
+
 ![GG369 Map 1](./images/GG369_WetlandMap.jpg "WetlandMap")
 
 ## Process Walkthrough
