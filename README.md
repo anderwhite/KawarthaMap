@@ -8,7 +8,8 @@ Buildings - Outside Wetland Buffers = 44,079 <br/>
 Evaluated Wetlands = 1,128 <br/>
 Unevaluated Wetlands = 2,763 <br/>
 
-## Map
+## Static Map
+(Interactive map coming soon... Hopefully.)
 ![GG369 Map 1](./images/GG369_WetlandMap.jpg "WetlandMap")
 
 ## Process Walkthrough
