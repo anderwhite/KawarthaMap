@@ -1,6 +1,12 @@
-# Kawartha Lakes Wetland Buffer Map
+# Kawartha Lakes - Wetland Buffer Mapping
 
-These files are part of a assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. The project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data. Wetland Buffers use Kawartha Conservation (https://www.kawarthaconservation.com) regulation policy. 
+These files are part of assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. This project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data. Kawartha Conservation regulation policies are used as techncila refrence for detemrining buffer sizes (Evaluated Wetland = 120 meter, Unevaluated Wetlands = 30 meter). 
+
+### Map Statistics:
+Buildings - Inside Wetland Buffers = 2,832
+Buildings - Ouside Wetland Buffers = 44,079
+Evaluated Wetlands = 1,128
+Unevaluated Wetlands = 2,763
 
 ## Map
 ![GG369 Map 1](GG369_WetlandMap.jpg)
@@ -33,7 +39,7 @@ These files are part of a assignment for the GG369 - Geographic Information Syst
     - Find Diffrence between "Ont_Buildings" and "Wetland Buffers", Rename Result "Buildings - Outside Buffer"
     - Clip "Ont_Buildings" with "Wetland Buffers", Rename Result "Buildings - Inside Buffer"
 - Create Map Layout
-    - Create Self Explanitory...
+    - Self Explanitory...
 
 ## Source Layers:
 - Ontario Hydro Network (OHN) - Waterbody 
