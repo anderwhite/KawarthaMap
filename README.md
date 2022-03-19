@@ -1,6 +1,11 @@
 # Kawartha Lakes Wetland Buffer Map
 
-This code is part of a project for the GG469 - Advanced Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. The project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data. Wetland Buffers use Kawartha Conservation regulation policy standards of 120m for Provincially Evaluated wetland, and 30m for Unevaulated Wetlands. 
+These files are part of a assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. The project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data. Wetland Buffers use Kawartha Conservation (https://www.kawarthaconservation.com) regulation policy standards. 
+
+
+
+## Map
+![GG369 Map 1](TestImage.jpg)
 
 ### Map 1 Walkthough
 
