@@ -2,12 +2,10 @@
 
 These files are part of a assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. The project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data. Wetland Buffers use Kawartha Conservation (https://www.kawarthaconservation.com) regulation policy standards. 
 
-
-
 ## Map
-![GG369 Map 1](TestImage.jpg)
+![GG369 Map 1](GG369_WetlandMap.jpg)
 
-### Map 1 Walkthough
+###  Map Walkthough
 
 Source Layers:
 - Ontario Hydro Network (OHN) - Waterbody (https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-waterbody/about)
