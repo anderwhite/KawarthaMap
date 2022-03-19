@@ -5,14 +5,6 @@ These files are part of a assignment for the GG369 - Geographic Information Syst
 ## Map
 ![GG369 Map 1](GG369_WetlandMap.jpg)
 
-## Source Layers:
-- Ontario Hydro Network (OHN) - Waterbody 
- (https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-waterbody/about)
-- Ontario Wetland Evaluation Systems - Wetlands
- (https://geohub.lio.gov.on.ca/datasets/mnrf::wetlands/about)
-- Ontario MNRF - Building as Symbol 
- (https://geohub.lio.gov.on.ca/datasets/mnrf::building-as-symbol/about)
-
 ## Proccess Walkthrough:
 - Add XYZ Layer (OpenStreetMap)
 - Define Map Extent
@@ -43,3 +35,10 @@ These files are part of a assignment for the GG369 - Geographic Information Syst
 - Create Map Layout
     - Create Self Explanitory...
 
+## Source Layers:
+- Ontario Hydro Network (OHN) - Waterbody 
+ (https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-waterbody/about)
+- Ontario Wetland Evaluation Systems - Wetlands
+ (https://geohub.lio.gov.on.ca/datasets/mnrf::wetlands/about)
+- Ontario MNRF - Building as Symbol 
+ (https://geohub.lio.gov.on.ca/datasets/mnrf::building-as-symbol/about)
