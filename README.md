@@ -2,11 +2,11 @@
 
 These files are part of assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. This project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data. Kawartha Conservation regulation policies are used as techncila refrence for detemrining buffer sizes (Evaluated Wetland = 120 meter, Unevaluated Wetlands = 30 meter). 
 
-### Map Statistics:
-Buildings - Inside Wetland Buffers = 2,832
-Buildings - Ouside Wetland Buffers = 44,079
-Evaluated Wetlands = 1,128
-Unevaluated Wetlands = 2,763
+## Map Statistics:
+Buildings - Inside Wetland Buffers = 2,832 <br/>
+Buildings - Ouside Wetland Buffers = 44,079 <br/>
+Evaluated Wetlands = 1,128 <br/>
+Unevaluated Wetlands = 2,763 <br/>
 
 ## Map
 ![GG369 Map 1](./images/GG369_WetlandMap.jpg "WetlandMap")
@@ -43,8 +43,8 @@ Unevaluated Wetlands = 2,763
 
 ## Source Layers:
 - Ontario Hydro Network (OHN) - Waterbody 
- (https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-waterbody/about)
+ (https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-waterbody/about) <br/>
 - Ontario Wetland Evaluation Systems - Wetlands
- (https://geohub.lio.gov.on.ca/datasets/mnrf::wetlands/about)
+ (https://geohub.lio.gov.on.ca/datasets/mnrf::wetlands/about) <br/>
 - Ontario MNRF - Building as Symbol 
- (https://geohub.lio.gov.on.ca/datasets/mnrf::building-as-symbol/about)
+ (https://geohub.lio.gov.on.ca/datasets/mnrf::building-as-symbol/about) <br/>
