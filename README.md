@@ -11,7 +11,7 @@ Unevaluated Wetlands = 2,763 <br/>
 ## Map
 ![GG369 Map 1](./images/GG369_WetlandMap.jpg "WetlandMap")
 
-## Proccess Walkthrough:
+## Proccess Walkthroug
 - Add XYZ Layer (OpenStreetMap)
 - Define Map Extent
      - Create New ShapeFile Layer (Polygon)
@@ -41,7 +41,7 @@ Unevaluated Wetlands = 2,763 <br/>
 - Create Map Layout
     - Self Explanitory...
 
-## Source Layers:
+## Source Layers
 - Ontario Hydro Network (OHN) - Waterbody 
  (https://geohub.lio.gov.on.ca/datasets/mnrf::ontario-hydro-network-ohn-waterbody/about) <br/>
 - Ontario Wetland Evaluation Systems - Wetlands
