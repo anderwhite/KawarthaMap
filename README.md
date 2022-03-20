@@ -1,6 +1,6 @@
 # Kawartha Lakes - Wetland Buffer Mapping
 
-![GitHub.io/KawarthaMap](https://anderwhite.github.io/KawarthaMap/)
+![view as webpage](URL: https://anderwhite.github.io/KawarthaMap/)
 
 These files are part of assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. This project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data.
 
