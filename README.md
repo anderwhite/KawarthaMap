@@ -1,12 +1,13 @@
 # Kawartha Lakes - Wetland Buffer Mapping
 
 View as a Webpage at: <https://anderwhite.github.io/KawarthaMap/>
+### To Download files please select the latest version from "Releases" on the side bar on GitHub Repo Page ------> 
 
 These files are part of assignment for the GG369 - Geographic Information Systems class at Wilfrid Laurier University, Ontario, Canada. This project uses GQIS, OpenStreetMaps and OpenGov (Ontario GeoHub) data.
 
-The purpose of this map is to identify all the buildings within the map extent that are within the a set buffer size around wetland features. Kawartha Conservation regulation policies are used as technical reference for determining buffer sizes (Evaluated Wetland = 120 meter, Unevaluated Wetlands = 30 meter).See Process Walkthrough (Below) for more details. This information could be used to identify areas where Sediment and erosion control measures are required, or where particular environmental polices are relevant. This map is a scaled down, non interactive, version of what most Conservation Authorities Use/provide through their online Conservation Mapping (ESRI). 
+The purpose of this map is to identify all the buildings within the map extent that are within the a set buffer size around wetland features. Kawartha Conservation regulation policies are used as technical reference for determining buffer sizes (Evaluated Wetland = 120 meter, Unevaluated Wetlands = 30 meter). See Process Walkthrough (Below) for more details on map creation. This information could be used to identify areas where Sediment and erosion control measures are required, or where particular environmental polices are relevant. This map is a scaled down, non interactive, version of what most Conservation Authorities Use/provide through their online Conservation Mapping (ESRI). 
 
-### To Download files please select the latest version from "Releases" on the side bar on GitHub Repo Page ------> 
+
 
 ## Statistics
 Buildings - Inside Wetland Buffers = 2,832 <br/>
