@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<!-- This is an interactive map of Kawartha Lakes, Ontario showing which buildings are within a buffered distance of wetlands, as determined by Kawartha Conservations regulation policies.-->
+
+<head>
+    <!-- This is Leaflets external CSS file, Must be first in the Doc.-->
+    <H1>QGIS Leaflet Webmap</H1>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <style>
+        #map {
+            height: 600px;
+            border: 5px outset black;
+        }
+    </style>
+
+    <!-- This is pulling in Leaflets external JavaScript file, Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+    <!--add var geodata={...) to the start of the geojson file to auto load the data into a variable then just link to the file... -->
+
+    <script src="./MapLayers/Kawartha_Lakes.geojson" type="text/javascript"></script>
+    <script src="./MapLayers/Kawartha_WetlandBuff.geojson" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+    <!--Everything within the following <Script> is now writen in JavaScript.-->
+    <script>
+        // This is where you set map Coordinates.
+        var mymap = L.map('map').setView([44.35936, -78.73686], 12);
+
+        //This is the 'Base Map', in this case from Mapbox, as per Leaflets recomendation.
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'pk.eyJ1IjoiYmFsZHRoZWJ1aWxkZXIiLCJhIjoiY2wwdjEwcmh0MTJvbDNpcDR2aXF4NDdyOCJ9.VYWB1ihniNYrFmofxDt4jA'
+        }).addTo(mymap);
+
+        L.geoJSON(lakes).addTo(mymap);
+        L.geoJSON(wetlandbuff).addTo(mymap);
+
+    </script>
+</body>
+
+</html>
